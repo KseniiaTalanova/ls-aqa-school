@@ -9,6 +9,8 @@ public class PointTask {
         point2.x = 1;
         point2.y = 2;
 
+        System.out.println("point1 (" + point1.x + "," + point1.y + ")");
+        System.out.println("point2 (" + point2.x + "," + point2.y + ")");
         System.out.println("distance = " + point1.distance(point2));
 
     }
